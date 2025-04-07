@@ -1,0 +1,138 @@
+#wrapper #header .headTop {
+  background: #eaeaea;
+  height: 30px;
+}
+#wrapper #header .headTop .headTopMain {
+  width: 1200px;
+  margin: 0 auto;
+  line-height: 30px;
+}
+#wrapper #header .headTop .headTopMain::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+#wrapper #header .headTop .headTopMain .left {
+  float: left;
+}
+#wrapper #header .headTop .headTopMain .left::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+#wrapper #header .headTop .headTopMain .left h5 {
+  float: left;
+  margin-right: 5px;
+}
+#wrapper #header .headTop .headTopMain .left p {
+  float: left;
+}
+#wrapper #header .headTop .headTopMain .left p a:first-child {
+  border-right: 1px solid #b3aeae;
+  margin-right: 0px;
+  padding-right: 5px;
+}
+#wrapper #header .headTop .headTopMain .right {
+  float: right;
+  font-size: 0;
+}
+#wrapper #header .headTop .headTopMain .right a {
+  font-size: 12px;
+  border-right: 1px solid #b3aeae;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+#wrapper #header .headTop .headTopMain .right a:last-child {
+  border: none;
+  margin: none;
+  padding: none;
+}
+#wrapper #header .headerBottom .headerBottomMain {
+  width: 1200px;
+  margin: 0 auto;
+}
+#wrapper #header .headerBottom .headerBottomMain::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+#wrapper #header .headerBottom .headerBottomMain .logo {
+  float: left;
+}
+#wrapper #header .headerBottom .headerBottomMain .logo a img {
+  margin: 25px 45px;
+  width: 175px;
+  height: 56px;
+}
+#wrapper #header .headerBottom .headerBottomMain .search {
+  margin-top: 35px;
+  float: right;
+}
+#wrapper #header .headerBottom .headerBottomMain .search::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+#wrapper #header .headerBottom .headerBottomMain .search input:first-child {
+  float: left;
+  box-sizing: border-box;
+  width: 490px;
+  height: 32px;
+  padding: 0px 4px;
+  border: 3px solid #ea4a36;
+}
+#wrapper #header .headerBottom .headerBottomMain .search input:last-child {
+  float: right;
+  width: 68px;
+  height: 32px;
+  background: #ea4a36;
+  color: #fff;
+  border: none;
+}
+#wrapper #header .headerBottom .headerBottomMain .search input::-webkit-input-placeholder {
+  color: yellowgreen;
+}
+#wrapper #navWrap {
+  margin-top: 111px;
+  border-bottom: 2px solid #e1251b;
+}
+#wrapper #navWrap nav {
+  margin: 0 auto;
+  width: 1200px;
+}
+#wrapper #navWrap nav::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+#wrapper #navWrap nav a {
+  float: left;
+  text-align: center;
+  line-height: 50px;
+  font-size: 16px;
+  color: #333;
+  margin: 0px 22px;
+}
+#wrapper #navWrap nav a:first-child {
+  background: #e1251b;
+  width: 210px;
+  height: 50px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+#wrapper #contentArea .contentMain {
+  font-size: 0;
+  width: 1200px;
+  margin: 15px auto 0 auto;
+}
+#wrapper #contentArea .contentMain .navPath {
+  padding: 9px 15px 9px 0;
+}
+#wrapper #contentArea .contentMain .navPath i {
+  padding: 0 5px;
+  font-size: 12px;
+}
+#wrapper #contentArea .contentMain .navPath a {
+  font-size: 12px;
+}
