@@ -65,6 +65,13 @@ window.onload = function () {
             let top = Math.max(0, Math.min(smallPic.clientHeight - mask.offsetHeight , event.clientY - smallPic.getBoundingClientRect().top - mask.offsetHeight / 2));
             mask.style.left = left + "px";
             mask.style.top = top + "px";
+
+            let bigPicImg = bigPic.getElementsByTagName("img")[0]
+            let scale = (smallPic.clientWidth - mask.offsetWidth) / (bigPicImg.offsetWidth - bigPic.clientWidth);
+            // console.log(scale);
+
+            bigPicImg.style.left = -left / scale + "px";
+            bigPicImg.style.top = -top / scale + "px";
         }
     
         smallPic.onmouseleave = function () {
