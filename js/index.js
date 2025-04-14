@@ -61,8 +61,8 @@ window.onload = function () {
         // Move the mask and bigPic
         // The mask is moved according to the mouse position, and the bigPic is moved according to the mask position
         smallPic.onmousemove = function (event){
-            let left  = event.clientX - smallPic.getBoundingClientRect().left - mask.offsetWidth / 2;
-            let top = event.clientY - smallPic.getBoundingClientRect().top - mask.offsetHeight / 2;
+            let left  = Math.max(0,  Math.min(smallPic.clientWidth - mask.offsetWidth , event.clientX - smallPic.getBoundingClientRect().left - mask.offsetWidth / 2));
+            let top = Math.max(0, Math.min(smallPic.clientHeight - mask.offsetHeight , event.clientY - smallPic.getBoundingClientRect().top - mask.offsetHeight / 2));
             mask.style.left = left + "px";
             mask.style.top = top + "px";
         }
