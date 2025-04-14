@@ -136,3 +136,40 @@
 #wrapper #contentArea .contentMain .navPath a {
   font-size: 12px;
 }
+#wrapper #contentArea .contentMain #center {
+  margin: 5px 0 15px;
+}
+#wrapper #contentArea .contentMain #center #left {
+  width: 400px;
+  float: left;
+}
+#wrapper #contentArea .contentMain #center #left #leftTop {
+  width: 400px;
+  position: relative;
+}
+#wrapper #contentArea .contentMain #center #left #leftTop #smallPic {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border: 1px solid #dfdfdf;
+}
+#wrapper #contentArea .contentMain #center #left #leftTop #smallPic .mask {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #ddd;
+  position: absolute;
+}
+#wrapper #contentArea .contentMain #center #left #leftTop #bigPic {
+  overflow: hidden;
+  width: 400px;
+  height: 400px;
+  left: 420px;
+  top: 0px;
+  position: absolute;
+  border: 1px solid #ddd;
+}
+#wrapper #contentArea .contentMain #center #left #leftTop #bigPic img {
+  width: 800px;
+  height: 800px;
+}
